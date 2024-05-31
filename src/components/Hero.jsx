@@ -17,20 +17,20 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[87vh] overflow-hidden">
+    <div className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[87vh] overflow-hidden">
       {images.map((image, index) => (
         <div
           key={index}
           className={`absolute w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}
         >
-          <img src={image} alt={`Slide ${index + 1}`} className="w-full h-full object-fill" />
+          <img src={image} alt={`Slide ${index + 1}`} className="w-full h-full md:object-fill object-cover" />
         </div>
       ))}
       <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex space-x-2">
         {images.map((_, index) => (
           <button
             key={index}
-            className={`w-3 h-3 rounded-full ${index === currentIndex ? 'bg-white' : 'bg-gray-400'}`}
+            className={`w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5 rounded-full ${index === currentIndex ? 'bg-white' : 'bg-gray-400'}`}
             onClick={() => setCurrentIndex(index)}
           />
         ))}
