@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/matti-website/static/css/main.c4e1eac2.css",
-    "main.js": "/matti-website/static/js/main.cc8b0095.js",
+    "main.css": "/matti-website/static/css/main.4849b601.css",
+    "main.js": "/matti-website/static/js/main.8ade5e47.js",
     "static/media/Terracotta.jpg": "/matti-website/static/media/Terracotta.e25a40209298eaf15f4f.jpg",
     "static/media/Sculpture.jpg": "/matti-website/static/media/Sculpture.d2f4d00830035ca971e5.jpg",
     "static/media/VideoSmall.mp4": "/matti-website/static/media/VideoSmall.19078261f79ff4920e8e.mp4",
@@ -55,11 +55,11 @@
     "static/media/Facebook.png": "/matti-website/static/media/Facebook.bfd1cfff9f9521198b26.png",
     "static/media/Cart.png": "/matti-website/static/media/Cart.8e3433c1f346fa7279b8.png",
     "index.html": "/matti-website/index.html",
-    "main.c4e1eac2.css.map": "/matti-website/static/css/main.c4e1eac2.css.map",
-    "main.cc8b0095.js.map": "/matti-website/static/js/main.cc8b0095.js.map"
+    "main.4849b601.css.map": "/matti-website/static/css/main.4849b601.css.map",
+    "main.8ade5e47.js.map": "/matti-website/static/js/main.8ade5e47.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4e1eac2.css",
-    "static/js/main.cc8b0095.js"
+    "static/css/main.4849b601.css",
+    "static/js/main.8ade5e47.js"
   ]
 }
