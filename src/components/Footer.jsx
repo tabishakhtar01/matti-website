@@ -11,7 +11,7 @@ import Email from './assets/images/Email.png'
 
 const Footer = () => {
   return (
-    <footer className="bg-beige-100 text-brown-700 py-8 px-6 text-sm text-[#876055]">
+    <footer className="bg-[#fcf8ed] text-brown-700 py-8 px-6 text-sm text-[#876055]">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-around items-center space-y-6 md:space-y-0 md:space-x-8">
         <div className="flex items-center md:items-start">
           <img src={FooterLogo} alt="Maati Ceramics Logo" className="h-32 mb-2 md:mb-4" />

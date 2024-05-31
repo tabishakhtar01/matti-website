@@ -9,7 +9,7 @@ const Video = () => {
             autoPlay
             loop
             muted
-            controls={false}
+            controls={true}
             style={{ display: 'block', width: '100%', height: 'auto' }}
             className='rounded-t-xl '
           >
