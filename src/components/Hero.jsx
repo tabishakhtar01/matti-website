@@ -17,13 +17,13 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[90vh] overflow-hidden">
+    <div className="relative w-full h-[87vh] overflow-hidden">
       {images.map((image, index) => (
         <div
           key={index}
           className={`absolute w-full h-full transition-opacity duration-1000 ease-in-out ${index === currentIndex ? 'opacity-100' : 'opacity-0'}`}
         >
-          <img src={image} alt={`Slide ${index + 1}`} className="w-full h-full object-cover" />
+          <img src={image} alt={`Slide ${index + 1}`} className="w-full h-full object-fill" />
         </div>
       ))}
       <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex space-x-2">
